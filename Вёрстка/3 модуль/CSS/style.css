@@ -84,7 +84,7 @@ body {
   margin-bottom: 20px;
 }
 
-.img:not(figure img) {
+.img:not(.figure .img) {
   margin-bottom: 40px;
 }
 
