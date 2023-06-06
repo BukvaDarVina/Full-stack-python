@@ -150,7 +150,7 @@ body {
   padding: 30px;
   background-color: #f3f3f3;
   background-position: right center;
-  background-size: max 100%;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
