@@ -68,7 +68,6 @@ body {
   margin: 0 auto;
   padding: 80px 0;
   width: 1170px;
-  max-width: 100%;
 }
 
 .title {
@@ -151,7 +150,7 @@ body {
   padding: 30px;
   background-color: #f3f3f3;
   background-position: right center;
-  background-size: contain;
+  background-size: max 100%;
   background-repeat: no-repeat;
 }
 
@@ -180,122 +179,4 @@ body {
 
 .bg_img_star {
   background-image: url(../img/decorate-2.png);
-}
-
-.container_modules {
-  margin: 0 auto;
-  padding: 80px 0;
-  width: 1170px;
-  max-width: 100%;
-}
-
-.logo_modules {
-  display: block;
-  margin-bottom: 50px;
-}
-
-.title_modules {
-  margin: 0;
-  margin-bottom: 40px;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 69px;
-  color: #3F2AFF;
-}
-
-.arrow {
-  font-weight: 400;
-  font-size: 20px;
-  color: #3f2aff;
-  padding-left: 50px;
-  background-image: url(../img/modules/Arrow\ 1.svg);
-  background-position: left center;
-  background-size: 45px;
-  background-repeat: no-repeat;
-}
-
-.content {
-  font-size: 0;
-}
-
-.cards {
-  margin: 0;
-  font-size: 0;
-  padding: 0;
-  margin-bottom: 10px;
-}
-
-.card {
-  display: inline-block;
-  width: 572px;
-  height: 505px;
-  padding-top: 180px;
-  background-position: top center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  margin-bottom: 25px;
-  box-shadow: 3px 3px 10px #000;
-  font-size: 0;
-}
-
-.card:not(:nth-child(2n)) {
-  margin-right: 25px;
-}
-
-.cadr_content {
-  padding: 25px;
-}
-
-.one {
-  background-image: url(../img/modules/1.jpg);
-}
-
-.two {
-  background-image: url(../img/modules/2.jpg);
-}
-
-.three {
-  background-image: url(../img/modules/3.jpg);
-}
-
-.four {
-  background-image: url(../img/modules/4.jpg);
-}
-
-.subtitle_modules {
-  margin: 0;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 46px;
-  color: #3F2AFF;
-}
-
-.card_texts {
-  list-style-type: none;
-  padding: 0;
-}
-
-.card_text {
-  margin-bottom: 10px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 33px;
-  color: #333;
-}
-
-.number {
-  margin: 0;
-  position: absolute;
-  bottom: 25px;
-  right: 25px;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 46px;
-  color: #EAEAEA;
-}
-
-.button {
-  margin: 0 auto;
 }
