@@ -150,7 +150,7 @@ body {
   padding: 30px;
   background-color: #f3f3f3;
   background-position: right center;
-  background-size: max 100%;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -179,4 +179,130 @@ body {
 
 .bg_img_star {
   background-image: url(../img/decorate-2.png);
+}
+
+.modules_container {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 1170px;
+}
+
+.modules_logo {
+  width: 137px;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.modules_link_div {
+  margin-bottom: 25px;
+}
+
+.modules_link_to_index {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3f2aff;
+  padding-left: 50px;
+  background-image: url(../img/modules/Arrow\ 1.svg);
+  background-position: left center;
+  background-size: 45px 20px;
+  background-repeat: no-repeat;
+}
+
+.modules_title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  color: #3F2AFF;
+}
+
+.modules_subtitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3F2AFF;
+}
+
+.modules_cards {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.modules_card {
+  display: inline-block;
+  vertical-align: top;
+  width: 572px;
+  height: 505px;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 25px;
+  padding-top: 205px;
+  background-position: top center;
+  background-size: 572px 180px;
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: 1px 1px 10px;
+}
+
+.modules_card:not(:nth-child(2n)) {
+  margin-right: 25px;
+}
+
+.modules_card_one {
+  background-image: url(../img/modules/1.jpg);
+}
+
+.modules_card_two {
+  background-image: url(../img/modules/2.jpg);
+}
+
+.modules_card_three {
+  background-image: url(../img/modules/3.jpg);
+}
+
+.modules_card_four {
+  background-image: url(../img/modules/4.jpg);
+}
+
+.modules_card_contents {
+  padding: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+
+.modules_card_content {
+  padding: 0;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.number {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #EAEAEA;
+}
+
+.button {
+  padding: 25px 75px;
+  background-color: white;
+  margin: 0 auto;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #3f2aff;
+  border: solid 2px #3F2AFF;
 }
